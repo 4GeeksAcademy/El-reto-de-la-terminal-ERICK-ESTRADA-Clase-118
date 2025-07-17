@@ -1,0 +1,43 @@
+lista de comandos:
+
+pwd :(print working directory) nos muestra en que lugar estamos (en que directorio estamos).
+
+cd :(Change Directory) como su nombre indica nos cambia de directorio. 
+[en este caso cuando queremos referenciar el lugar en el que estoy se usa "." y si es el anterior lugar ".."].
+
+clear: se utiliza para limpiar la pantalla de la terminal y borrar todo el contenido visible en la pantalla.
+
+ls : se utiliza para listar archivos o directorios (se puede usar junto "-a" [ls -a] para mostrar en el listado
+los archivos escondidos [hidden]).
+
+mv :(move) se usa para mover o renombrar archivos o directorios.
+
+cp :(copy) se usa para copiar archivos y directorios además de también renombrarlos en el proceso.
+
+touch: se utiliza para crear un nuevo archivo vacío. 
+
+mkdir: se utiliza para crear un fichero (carpeta).
+
+rm (remove): eliminar archivos(bastante poderoso porque no permite recuperar lo removido).​
+{rmdir: en caso de querer eliminar un fichero vacío.}
+{rm -r: este comando se usa para eliminar de manera recursiva un fichero con todos los archivos que contiene.}
+
+cat: se utiliza para ver el contenido dentro de un archivo en la terminal.
+{cat también se puede utilizar para agregar contenido a archivos existentes, 
+Para agregar contenido al final de un archivo, se utiliza el operador >>.}
+
+head:se utiliza para ver las primeras 10 líneas de un archivo en la terminal.
+
+tail: se utiliza para ver las ultimas 10 líneas de un archivo en la terminal.
+
+echo: se usa para la impresión de un texto en la terminal.
+{al igual que "cat", "echo" también puede usar para agregar contenido al final de un archivo con >>} 
+
+find: se utiliza para encontrar archivos en un directorio que escojamos.
+
+nano: es un editor de texto de algún archivo que escojamos (este tiene varias opciones[comandos] las cuales podremos usar con Ctrl, 
+si no logras usarlo correctamente quizás te secuestre y tome control de ti).
+
+tree: se utiliza para mostrar la estructura de directorios y subdirectorios de forma jerárquica.
+
+att: nano.
